@@ -76,37 +76,37 @@ The general process of obtaining the binary thresholded image is:
 Example steps based on the test frame:
 
 L channel
-[./processed/l.jpg]
+![l](./processed/l.jpg)
 
 L channel CLAHE
-[./processed/l_clahe.jpg]
+![l_clahe](./processed/l_clahe.jpg)
 
 L channel binary
-[./processed/l_binary.jpg]
+![L-binary](./processed/l_binary.jpg)
 
 B channel
-[./processed/b.jpg]
+![b](./processed/b.jpg)
 
 B channel CLAHE
-[./processed/b_clahe.jpg]
+![b-clahe](./processed/b_clahe.jpg)
 
 B channel binary
-[./processed/b_binary.jpg]
+![b-binary](./processed/b_binary.jpg)
 
 V channel
-[./processed/v.jpg]
+![v](./processed/v.jpg)
 
 V channel CLAHE
-[./processed/v_clahe.jpg]
+![v-clahe](./processed/v_clahe.jpg)
 
 V channel binary
-[./processed/v_binary.jpg]
+![v-binary](./processed/v_binary.jpg)
 
 Sobel
-[./processed/sobel.jpg]
+![sobel](./processed/sobel.jpg)
 
 Combined
-[./processed/combined.jpg]
+![combined](./processed/combined.jpg)
 
 #### 3. Describe how (and identify where in your code) you performed a perspective transform and provide an example of a transformed image.
 
