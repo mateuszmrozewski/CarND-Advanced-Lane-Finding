@@ -15,6 +15,10 @@ The goals / steps of this project are the following:
 * Warp the detected lane boundaries back onto the original image.
 * Output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position.
 
+## Changes after first review
+* transformation to birds eye view had incorrect parameter. Improving that helped to get better results for lane finding
+* pixel to meter conversion has been fixed after fixing the transformation
+* there was a mistake in calculating the lane curvature: subtraction instead of addition and missing parenthesis
 
 ## Rubric Points
 
